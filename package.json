@@ -1,0 +1,28 @@
+{
+  "name": "topgg-checker",
+  "version": "0.0.1",
+  "description": "Top.gg oy kontrol ve otomatik gönderim sistemi içeren basit bir kütüphane.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --no-warnings src/index.js"
+  },
+  "keywords": [
+    "topgg",
+    "vote",
+    "autoposter",
+    "discord.js",
+    "discord",
+    "anonymousdb",
+    "turkish"
+  ],
+  "author": "mrbaskan",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MrBaskan33/topgg-checker/issues"
+  },
+  "homepage": "https://github.com/MrBaskan33/topgg-checker#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "@top-gg/sdk": "^3.1.6"
+  }
+}
