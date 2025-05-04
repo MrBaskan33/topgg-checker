@@ -1,7 +1,7 @@
 const { initCheckUpdates } = require("../checkUpdate.js")
 const axios = require("axios")
 
-class TopGGChecker {
+class TopGG {
   constructor(topggToken, botId) {
     this.token = topggToken
     this.botId = botId
@@ -29,4 +29,4 @@ class TopGGChecker {
   }
 }
 
-module.exports = { TopGGChecker }
+module.exports = { TopGG }
